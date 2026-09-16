@@ -49,5 +49,5 @@ def predict(transaction : Transaction):
   prediction = model.predict(scaled_features)[0]
 
   return {
-      "predicted_class": int(prediction)
+      "predicted_class": "legit" if prediction == 0 else "fraud"
   }
