@@ -51,15 +51,12 @@ or
 Credit Card Fraud Detection/
 ├── api/
 │   └── main.py
-├── data/
-│   └── creditcard.csv
 ├── model/
 │   ├── model.pkl
 │   └── scaler.pkl
 ├── notebook/
-│   └── fraud_detection.ipynb
+│   └── train.ipynb
 ├── .gitignore
-├── requirements.txt
 └── README.md
 ```
 
